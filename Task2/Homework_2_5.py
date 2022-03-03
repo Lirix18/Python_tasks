@@ -5,8 +5,8 @@ prices = [57.8, 46.51, 97, 35.96, 92.55, 17.09, 27, 77.1, 0.16, 42, 0.1, 150]
 
 def rr_kk(spisok):
     new_prices = ' '
-    for i in spisok:
-        price = str(f"{float(i):.2f}").split(".")
+    for i, number in enumerate(spisok):
+        price = str(f"{float(number):.2f}").split(".")
         separate = ', '
         if i == len(spisok) - 1:
             separate = ''
