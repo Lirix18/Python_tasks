@@ -28,7 +28,7 @@ def currency_rates(code):
 
 
 print(currency_rates('567'))
-"""Вот тут я не поняла, почему выводит не списком из-за звездочки"""
+
 print(*currency_rates('usd'))
 
 print(currency_rates('rub'))
